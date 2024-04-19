@@ -1,0 +1,96 @@
+--- Process 11904 created
+--- Process 11904 loaded C:\Windows\System32\ntdll.dll at 00007ffcde480000
+--- Process 11904 loaded C:\Windows\System32\kernel32.dll at 00007ffcdcff0000
+--- Process 11904 loaded C:\Windows\System32\KernelBase.dll at 00007ffcdc280000
+--- Process 11904 loaded C:\Windows\System32\advapi32.dll at 00007ffcdd880000
+--- Process 11904 loaded C:\Windows\System32\msvcrt.dll at 00007ffcdd140000
+--- Process 11904 loaded C:\Windows\System32\sechost.dll at 00007ffcdd930000
+--- Process 11904 loaded C:\Windows\System32\rpcrt4.dll at 00007ffcdd9d0000
+--- Process 11904 loaded C:\Windows\System32\user32.dll at 00007ffcde2a0000
+--- Process 11904 loaded C:\Windows\System32\win32u.dll at 00007ffcdb4c0000
+--- Process 11904 loaded C:\Windows\System32\gdi32.dll at 00007ffcdd5a0000
+--- Process 11904 loaded C:\Windows\System32\gdi32full.dll at 00007ffcdc040000
+--- Process 11904 loaded C:\Windows\System32\msvcp_win.dll at 00007ffcdc1e0000
+--- Process 11904 loaded C:\Windows\System32\ucrtbase.dll at 00007ffcdb550000
+--- Process 11904 thread 15216 created
+--- Process 11904 thread 6100 created
+--- Process 11904 thread 17068 created
+--- Process 11904 loaded C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.1379_none_9e7ff3b3e45cc0c4\comctl32.dll at 00007ffcc3cc0000
+--- Process 11904 loaded C:\Windows\System32\combase.dll at 00007ffcddf60000
+--- Process 11904 loaded C:\Windows\System32\bcryptprimitives.dll at 00007ffcdb400000
+--- Process 11904 loaded C:\Windows\System32\imm32.dll at 00007ffcdd510000
+--- Process 11904 loaded D:\Program Files\Java\jre1.8.0_271\bin\vcruntime140.dll at 00007ffcbf360000
+--- Process 11904 loaded D:\Program Files\Java\jre1.8.0_271\bin\msvcp140.dll at 00007ffca9690000
+--- Process 11904 loaded D:\Program Files\Java\jre1.8.0_271\bin\server\jvm.dll at 00000000747b0000
+--- Process 11904 loaded C:\Windows\System32\psapi.dll at 00007ffcdc820000
+--- Process 11904 loaded C:\Windows\System32\version.dll at 00007ffcd2ba0000
+--- Process 11904 loaded C:\Windows\System32\wsock32.dll at 00007ffccd770000
+--- Process 11904 loaded C:\Windows\System32\ws2_32.dll at 00007ffcdd0b0000
+--- Process 11904 loaded C:\Windows\System32\winmm.dll at 00007ffccd6f0000
+--- Process 11904 loaded C:\Windows\System32\winmmbase.dll at 00007ffccd6c0000
+--- Process 11904 loaded C:\Windows\System32\cfgmgr32.dll at 00007ffcdb650000
+--- Process 11904 loaded C:\Windows\System32\winmmbase.dll at 000001a2b2230000
+--- Process 11904 loaded C:\Windows\System32\winmmbase.dll at 000001a2b2260000
+--- Process 11904 unloaded DLL at 000001a2b2230000
+--- Process 11904 unloaded DLL at 000001a2b2260000
+--- Process 11904 thread 22520 created
+--- Process 11904 loaded C:\Windows\System32\kernel.appcore.dll at 00007ffcdb3b0000
+--- Process 11904 loaded D:\Program Files\Java\jre1.8.0_271\bin\verify.dll at 00007ffcd0a90000
+--- Process 11904 loaded D:\Program Files\Java\jre1.8.0_271\bin\java.dll at 00007ffcaf580000
+--- Process 11904 loaded D:\Program Files\Java\jre1.8.0_271\bin\zip.dll at 00007ffcaf390000
+--- Process 11904, exception c0000005 at 000001a2b22403b4
+--- Process 11904 thread 9244 created
+--- Process 11904 thread 11844 created
+--- Process 11904 thread 17644 created
+--- Process 11904 thread 10256 created
+--- Process 11904 thread 14376 created
+--- Process 11904 thread 15716 created
+--- Process 11904 thread 7740 created
+--- Process 11904 thread 15688 created
+--- Process 11904 thread 16044 created
+--- Process 11904 thread 20552 created
+--- Process 11904 thread 8792 created
+--- Process 11904 loaded C:\Windows\System32\shell32.dll at 00007ffcdc840000
+--- Process 11904 loaded C:\Windows\System32\SHCore.dll at 00007ffcdd2b0000
+--- Process 11904 loaded C:\Windows\System32\windows.storage.dll at 00007ffcdb8a0000
+--- Process 11904 loaded C:\Windows\System32\profapi.dll at 00007ffcdb3d0000
+--- Process 11904 loaded C:\Windows\System32\powrprof.dll at 00007ffcdb360000
+--- Process 11904 loaded C:\Windows\System32\umpdc.dll at 00007ffcdb330000
+--- Process 11904 loaded C:\Windows\System32\shlwapi.dll at 00007ffcdd820000
+--- Process 11904 loaded C:\Windows\System32\cryptsp.dll at 00007ffcdc020000
+--- Process 11904 thread 21240 created
+--- Process 11904 thread 13092 created
+--- Process 11904 thread 9308 created
+--- Process 11904 thread 12384 created
+--- Process 11904 thread 10744 created
+--- Process 11904 thread 14592 created
+--- Process 11904 thread 16672 created
+--- Process 11904 thread 13884 created
+--- Process 11904 loaded D:\Program Files\Java\jre1.8.0_271\bin\net.dll at 00007ffcaf020000
+--- Process 11904 loaded C:\Windows\System32\mswsock.dll at 00007ffcdab70000
+--- Process 11904 thread 6100 exited with status 0x0
+--- Process 11904 thread 15216 exited with status 0x0
+--- Process 11904 thread 17068 exited with status 0x0
+--- Process 11904 thread 11708 created
+--- Process 11904 thread 11708 exited with status 0x2
+--- Process 11904 thread 16044 exited with status 0xc000013a
+--- Process 11904 thread 21240 exited with status 0xc000013a
+--- Process 11904 thread 10744 exited with status 0xc000013a
+--- Process 11904 thread 12384 exited with status 0xc000013a
+--- Process 11904 thread 13884 exited with status 0xc000013a
+--- Process 11904 thread 22520 exited with status 0xc000013a
+--- Process 11904 thread 9308 exited with status 0xc000013a
+--- Process 11904 thread 14592 exited with status 0xc000013a
+--- Process 11904 thread 11844 exited with status 0xc000013a
+--- Process 11904 thread 7740 exited with status 0xc000013a
+--- Process 11904 thread 10920 exited with status 0xc000013a
+--- Process 11904 thread 9244 exited with status 0xc000013a
+--- Process 11904 thread 17644 exited with status 0xc000013a
+--- Process 11904 thread 10256 exited with status 0xc000013a
+--- Process 11904 thread 14376 exited with status 0xc000013a
+--- Process 11904 thread 20552 exited with status 0xc000013a
+--- Process 11904 thread 15688 exited with status 0xc000013a
+--- Process 11904 thread 8792 exited with status 0xc000013a
+--- Process 11904 thread 15716 exited with status 0xc000013a
+--- Process 11904 thread 13092 exited with status 0xc000013a
+--- Process 11904 exited with status 0xc000013a

@@ -1,0 +1,18 @@
+1.LSocketServer读异常只打印异常简单信息，不打印异常堆栈。
+2.SocketClient增加“是否在连接中”方法。
+3.XmlUtil增加截取xml node value方法。
+4.增加AES加密方式。
+5.在缓存方式中增加DailyCache实现。
+6.增加HttpUtil类，提供获取远程IP方法。
+
+7.提供对文件的摘要。
+8.增加图形验证码
+9.增加签名、验签基础类
+
+10.增加Https证书类型设置。
+11.增加sha256签名类
+
+12.LSocketServer收到心跳包后回复一个心跳包。（可配置）
+13.LSocketClient未收到心跳包回复视为链路断开，重新连接。（可配置）
+14.FiledCatalogy增加toString方法。
+15.Field可设置字符集。

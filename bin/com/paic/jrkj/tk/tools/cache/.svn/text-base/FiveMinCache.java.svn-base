@@ -1,0 +1,27 @@
+package com.paic.jrkj.tk.tools.cache;
+
+import java.util.Calendar;
+
+/**
+ * <p/>
+ *
+ * @author <a href="mailto:wangqiliang848@pingan.com.cn">wangqiliang848</a>
+ * @version $Revision: 1.0 $ $Date: 2013-11-4 16:43:41 $
+ * @serial 1.0
+ * @since JDK1.6.0_27 2013-11-4 16:43:41
+ */
+public class FiveMinCache<K,V> extends FixTimeCache<K,V>{
+
+    public FiveMinCache() {
+        super(5*60*1000-1000, 12);
+    }
+
+    public FiveMinCache(int maxKeySize) {
+        super(5*60*1000-1000, 12,maxKeySize);
+    }
+
+    protected int getCurrentIndex() {
+        Calendar vCalendar = Calendar.getInstance();
+        return vCalendar.get(Calendar.MINUTE)/5;
+    }
+}

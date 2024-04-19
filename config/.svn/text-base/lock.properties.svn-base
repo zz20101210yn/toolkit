@@ -1,0 +1,3 @@
+rsa.maxLockSize=50
+castor.maxLockSize=100
+demolock.maxLockSize=5

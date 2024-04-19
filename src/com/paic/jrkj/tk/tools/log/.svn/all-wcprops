@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/log
+END
+Log4JLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/log/Log4JLogger.java
+END
+Log4J2Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/log/Log4J2Logger.java
+END
+LogFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/log/LogFactory.java
+END

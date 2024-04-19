@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="toolkit" default="jar" basedir=".">
+    <property name="src" value="${basedir}/src"/>
+    <property name="dist" value="${basedir}/dist"/>
+	<property file="build.properties"/>
+    <property environment="env"/>
+	<include file="buildcommon.xml" as="nested"/>
+    <path id="project.classpath">
+        <fileset dir="${basedir}/lib">
+            <include name="**/*.jar"/>
+        </fileset>
+        <fileset dir="${basedir}/ext_lib">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+	
+    <target name="init">
+    	<echo>svn: ${full.build.version}</echo>
+        <mkdir dir="${dist}"/>
+        <mkdir dir="${dist}/classes/"/>
+        <mkdir dir="${dist}/config/"/>
+    </target>
+
+    <target name="jar" depends="init">
+        <javac debug="true" encoding="GBK" srcdir="${src}" source="1.6" target="1.6" destdir="${dist}/classes/">
+            <classpath refid="project.classpath"/>
+        </javac>
+        <copy todir="${dist}/config">
+            <fileset dir="${basedir}/config">
+                <include name="**"/>
+            </fileset>
+        </copy>
+        <jar jarfile="${dist}/toolkit.jar">
+        	<manifest>
+        	    <attribute name="Built-By" value="${user.name}"/>
+				<attribute name="Specification-Title" value="TOOLKIT JAVA Specification"/>
+				<attribute name="Specification-Version" value="${project.version}"/>
+				<attribute name="Specification-Vendor" value="${user.name}"/>
+				<attribute name="Implementation-Title" value="TOOLKIT Application"/>
+				<attribute name="Implementation-Version" value="${project.version}"/> 
+				<attribute name="Implementation-Vendor" value="${user.name}"/>
+        		<attribute name="Svn-Version" value="${full.build.version}"/>
+        		<attribute name="Built-On" value="${TODAY}"/>
+        	</manifest>
+            <fileset dir="${dist}/classes"/>
+            <fileset dir="${dist}/config">
+                <include name="*.properties"/>
+            </fileset>
+        </jar>
+        <delete dir="${dist}/classes"/>
+    </target>
+
+    <target name="clean" depends="init">
+        <delete dir="${dist}"/>
+    </target>
+
+</project>

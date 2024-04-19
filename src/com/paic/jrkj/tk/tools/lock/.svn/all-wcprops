@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/lock
+END
+MemoryLockPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/lock/MemoryLockPool.java
+END
+LockPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/lock/LockPool.java
+END
+FileLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/tools/lock/FileLock.java
+END

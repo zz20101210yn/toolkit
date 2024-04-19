@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/pinganfu/toolkit/!svn/ver/4/trunk/config
+END
+work-manager.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/pinganfu/toolkit/!svn/ver/4/trunk/config/work-manager.properties
+END
+lock.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/pinganfu/toolkit/!svn/ver/4/trunk/config/lock.properties
+END
+commons-logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/pinganfu/toolkit/!svn/ver/4/trunk/config/commons-logging.properties
+END
+msg-cache.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/pinganfu/toolkit/!svn/ver/4/trunk/config/msg-cache.properties
+END
+mq.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/pinganfu/toolkit/!svn/ver/4/trunk/config/mq.properties
+END
+castor.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/pinganfu/toolkit/!svn/ver/4/trunk/config/castor.properties
+END

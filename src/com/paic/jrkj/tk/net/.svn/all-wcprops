@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/net
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/net/Connection.java
+END
+UploadAndDownload.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/net/UploadAndDownload.java
+END
+SendAndReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/net/SendAndReceiver.java
+END
+WMSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/net/WMSelector.java
+END
+Server.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/net/Server.java
+END
+ConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/pinganfu/toolkit/!svn/ver/4/trunk/src/com/paic/jrkj/tk/net/ConnectionListener.java
+END

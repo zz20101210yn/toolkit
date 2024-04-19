@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="included" basedir="." default="full.build.version">
+	<!-- SVN info -->
+	<target name="svn-info">
+		<svn>
+			<info
+				path="${basedir}" 
+				committedRevisionProperty="revisionVersion" 
+				authorProperty="revisionAuthor" 
+				committedDateProperty="revisionDate" 
+			/>
+		</svn>
+		<!-- show revision, author and date -->
+		<property 
+			name="version" 
+			value="At revision ${revisionVersion} by ${revisionAuthor} on ${revisionDate}" 
+		/>
+		<echo message="${version}"/>
+	</target>
+	
+	<exec outputproperty="build.current.revision" executable="svnversion" failifexecutionfails="false">
+         <arg line="-n -c" />
+         <redirector>
+           <outputfilterchain>
+             <tokenfilter>
+                 <replaceregex pattern="^[0-9]*:?" replace="" flags="g"/>
+             </tokenfilter>
+          </outputfilterchain>
+        </redirector>
+	</exec>
+	<exec outputproperty="build.current.version" executable="svn" failifexecutionfails="false">
+	  <arg line="info" />
+	  <redirector>
+	  <outputfilterchain>
+	  <linecontainsregexp><regexp pattern="^URL:" /></linecontainsregexp>
+	   <tokenfilter>
+	     <replaceregex pattern=".*\/([^\/]+)$" replace="\1" flags="g"/>
+	   </tokenfilter>
+	  </outputfilterchain>
+	</redirector>
+	</exec>
+
+	<property name="full.build.version" value="${build.current.version}-${build.current.revision}" />
+	
+	<target name="full.build.version">
+    	<echo>svn: ${full.build.version}</echo>
+    </target>
+    
+    <target name="print-version"> 
+		<echo message="Ant java version:    ${ant.java.version}" />
+    	<echo message="Java detail version: ${java.version}" />
+    	<echo message="Ant version:         ${ant.version}" />
+		<echo message="OS Name is:          ${os.name}" />
+        <echo message="OS Architecture is:  ${os.arch}" />
+        <echo message="OS Version is:       ${os.version}" />
+	</target>
+	
+	<tstamp>
+	    <format property="TODAY" pattern="yyyy-MM-dd HH:mm:ss.S" locale="cn,ZH"/>
+	</tstamp>
+</project>
