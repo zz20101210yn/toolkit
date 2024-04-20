@@ -27,7 +27,7 @@ import java.net.URL;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2016-5-25 13:59:39 $
  * @serial 1.0
  * @since 2016-5-25 13:59:39

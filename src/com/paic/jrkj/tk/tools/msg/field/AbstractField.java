@@ -7,7 +7,7 @@ import com.paic.jrkj.tk.util.HexUtil;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2013-11-12 15:57:11 $
  * @serial 1.0
  * @since JDK1.6.0_27 2013-11-12 15:57:11

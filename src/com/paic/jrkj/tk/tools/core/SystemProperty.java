@@ -21,7 +21,7 @@ import com.paic.jrkj.tk.tools.io.PropertyLoader;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2015-2-26 15:20:40 $
  * @serial 1.0
  * @since 2015-2-26 15:20:40

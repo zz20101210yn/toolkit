@@ -23,7 +23,7 @@ import org.apache.commons.logging.LogFactory;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2015-4-10 16:37:45 $
  * @serial 1.0
  * @since 2015-4-10 16:37:45

@@ -31,7 +31,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2016-2-16 10:03:47 $
  * @serial 1.0
  * @since 2016-2-16 10:03:47

@@ -1,2 +1,0 @@
-thread-cache.impl=com.paic.jrkj.tk.tools.cache.MinTimeCache
-thread-cache.maxKeySize=-1

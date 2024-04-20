@@ -18,7 +18,7 @@ package com.paic.jrkj.tk.tools.io;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2016-6-7 13:43:54 $
  * @serial 1.0
  * @since 2016-6-7 13:43:54

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2013-10-31 14:12:57 $
  * @serial 1.0
  * @since JDK1.6.0_27 2013-10-31 14:12:57

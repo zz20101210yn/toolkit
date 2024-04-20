@@ -25,7 +25,7 @@ import com.paic.jrkj.tk.tools.core.BeanHolder;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2015-3-11 17:39:24 $
  * @serial 1.0
  * @since 2015-3-11 17:39:24

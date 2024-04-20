@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * <p/>
  *
- * @author <a href="mailto:zhangzhen405@pingan.com.cn">zhangzhen405</a>
+ * @author <a href="mailto:zhangzhen405">zhangzhen405</a>
  * @version $Revision: 1.0 $ $Date: 2013-11-5 14:24:39 $
  * @serial 1.0
  * @since JDK1.6.0_27 2013-11-5 14:24:39

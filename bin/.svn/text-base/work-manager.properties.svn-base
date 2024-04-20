@@ -1,5 +1,0 @@
-workmanager.default=com.paic.jrkj.tk.tools.work.PoolWorkManager
-default.corePoolSize=20
-default.maxPoolSize=500
-default.keepAliveTime=15000
-default.queueCapacity=-1
