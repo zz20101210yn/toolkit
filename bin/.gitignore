@@ -1,0 +1,9 @@
+/castor.properties
+/com/
+/commons-logging.properties
+/lock.properties
+/mq.properties
+/msg-cache.properties
+/out
+/test/
+/work-manager.properties
